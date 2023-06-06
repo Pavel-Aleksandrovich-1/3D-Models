@@ -54,7 +54,7 @@ const Customizer = () => {
     try {
       setGeneratingImg(true);
 
-      const response = await fetch('https://threed-clone.onrender.com/api/v1/dalle', {
+      const response = await fetch('https://threed-3mwy.onrender.com/api/v1/dalle', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
